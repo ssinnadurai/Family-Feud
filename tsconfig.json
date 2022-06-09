@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "outDir": "../out-tsc/app",
+        "resolveJsonModule": true,
+        "module": "commonjs",
+        "target": "es6",
+        "types": [
+            "@types/node",
+            "@types/jasmine"
+        ],
+        "esModuleInterop": true
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "Family feud",
+  "main": "index.js",
+  "scripts": {
+    "database": "ts-node ./utils/database.ts",
+    "test": "ts-node ./src/test.ts",
+    "q": "ts-node ./question/faceOff.ts"
+  },
+  "author": "Sharusshan Sinnadurai",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1145.0",
+    "typescript": "^4.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.36"
+  }
+}
